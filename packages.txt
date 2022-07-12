@@ -1,1 +1,3 @@
-
+r-base
+r-base-dev
+r-cran-ggplot2
