@@ -5,8 +5,11 @@ st.header('🎈 App Name')
 
 st.write('Hello world!')
 
-result1 = subprocess.run(["echo", "Hello, World!"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-st.write(result1.stdout)
+process = subprocess.Popen(["echo", "Hello, World!"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+result2 = process.communicate()
+st.write(result2)
 
-result2 = subprocess.run(["R"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
-st.write(result2.stdout)
+
+process = subprocess.Popen(["R"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+result2 = process.communicate()
+st.write(result2)
