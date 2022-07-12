@@ -3,4 +3,4 @@ library(ggplot2)
 ggplot(mtcars, aes(mpg, wt)) +
   geom_point()
 
-ggsave("plot.png")
+ggsave('plot.png')
