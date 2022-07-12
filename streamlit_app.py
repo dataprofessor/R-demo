@@ -10,6 +10,6 @@ result2 = process.communicate()
 st.write(result2)
 
 
-process = subprocess.Popen(["Rscript", "helloworld.r"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
+process = subprocess.Popen(["Rscript", "helloworld.R"], stdout=subprocess.PIPE, stderr=subprocess.PIPE, text=True)
 result2 = process.communicate()
 st.write(result2)
