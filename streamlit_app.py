@@ -15,7 +15,7 @@ result1 = process1.communicate()
 st.write(result1)
 
 
-st.subheader('Creating a plot using ggplot2')
+st.subheader('Creating a plot using `ggplot2`')
 with st.expander('See code'):
   code2 = '''library(ggplot2)
 
@@ -31,7 +31,7 @@ image = Image.open('plot.png')
 st.image(image)
 
 
-st.subheader('Creating a plot of Lipinski descriptors using ggplot2 and cowplot')
+st.subheader('Creating a plot of Lipinski descriptors using `ggplot2` and `cowplot`')
 with st.expander('See code'):
   code3 = '''library(ggplot2)
   library(cowplot)
