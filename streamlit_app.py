@@ -2,7 +2,7 @@ import streamlit as st
 import subprocess
 from PIL import Image
 
-st.header('🎈 App Name')
+st.header('🎈 R x Python App')
 
 
 st.subheader('Printing text in R')
