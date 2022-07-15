@@ -39,7 +39,7 @@ process2 = subprocess.Popen(["Rscript", "plot.R"], stdout=subprocess.PIPE, stder
 result2 = process2.communicate()
 image = Image.open('plot.png')
 st.image(image)
-
+st.caption('**Figure 1.** A simple scatter plot of wt as a function of mpg.')
 
 st.subheader('3. Creating a plot of Lipinski descriptors using `ggplot2` and `cowplot`')
 with st.expander('See code'):
@@ -129,4 +129,4 @@ process3 = subprocess.Popen(["Rscript", "lipinski.R"], stdout=subprocess.PIPE, s
 result3 = process3.communicate()
 image = Image.open('lipinski.png')
 st.image(image)
-st.caption('A reproduction of Figure 3 from the [HCVpred](https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.26223) paper using code publicly available on [GitHub](https://github.com/chaninlab/hcvpred).')
+st.caption('**Figure 2.** A reproduction of Figure 3 from the [HCVpred](https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.26223) paper using code publicly available on [GitHub](https://github.com/chaninlab/hcvpred).')
