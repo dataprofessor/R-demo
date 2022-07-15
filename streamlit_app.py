@@ -39,7 +39,7 @@ process2 = subprocess.Popen(["Rscript", "plot.R"], stdout=subprocess.PIPE, stder
 result2 = process2.communicate()
 image = Image.open('plot.png')
 st.image(image)
-st.caption('**Figure 1.** A simple scatter plot of *wt* as a function of *mpg*.')
+st.caption('**Figure 1.** A simple scatter plot of *wt* as a function of *mpg* from the mtcars dataset.')
 
 st.subheader('3. Creating a plot of Lipinski descriptors using `ggplot2` and `cowplot`')
 with st.expander('See code'):
