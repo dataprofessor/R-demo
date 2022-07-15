@@ -10,7 +10,7 @@ This demo shows the use of R in a Streamlit App by showcasing 3 example use case
 
 The R code for all 3 examples are rendered on-the-fly in this app.
 
-Libraries used:
+R packages used:
 - `ggplot2`
 - `cowplot`
 ''')
