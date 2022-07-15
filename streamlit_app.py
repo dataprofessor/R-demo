@@ -127,3 +127,4 @@ process3 = subprocess.Popen(["Rscript", "lipinski.R"], stdout=subprocess.PIPE, s
 result3 = process3.communicate()
 image = Image.open('lipinski.png')
 st.image(image)
+st.caption('A reproduction of Figure 3 from the [HCVpred](https://onlinelibrary.wiley.com/doi/abs/10.1002/jcc.26223) paper')
