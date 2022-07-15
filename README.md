@@ -1,18 +1,12 @@
-# Name of Streamlit App
+# R x Streamlit App
 
-Description of the app ...
+This app shows the use of R in a Streamlit app. Particularly, codes shown herein are rendered on-the-fly as the app is loaded.
 
 ## Demo App
 
-[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/st-app/)
+[![Streamlit App](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://share.streamlit.io/dataprofessor/r-demo/)
 
-## Section Heading
-
-This is filler text, please replace this with text for this section.
-
-## Further Reading
-
-This is filler text, please replace this with a explanatory text about further relevant resources for this repo
-- Resource 1
-- Resource 2
-- Resource 3
+## R packages used
+The following R packages are used in this app:
+- `ggplot2`
+- `cowplot`
