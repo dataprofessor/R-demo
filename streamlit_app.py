@@ -2,8 +2,16 @@ import streamlit as st
 import subprocess
 from PIL import Image
 
-st.header('🎈 R x Python App')
+st.header('🎈 R x Streamlit App')
 
+st.sidebar.markdown('''
+# About
+This app shows the use of R in a Streamlit App.
+
+Libraries use:
+- `ggplot2`
+- `cowplot`
+''')
 
 st.subheader('Printing text in R')
 with st.expander('See code'):
