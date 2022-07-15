@@ -8,6 +8,8 @@ st.sidebar.markdown('''
 # About
 This demo shows the use of R in a Streamlit App by showcasing 3 example use cases.
 
+The R code for all 3 examples are rendered on-the-fly in this app.
+
 Libraries used:
 - `ggplot2`
 - `cowplot`
