@@ -6,7 +6,7 @@ st.header('🎈 R x Streamlit App')
 
 st.sidebar.markdown('''
 # About
-This demo shows the use of R in a Streamlit App.
+This demo shows the use of R in a Streamlit App by showcasing 3 example use cases.
 
 Libraries used:
 - `ggplot2`
