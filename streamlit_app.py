@@ -6,9 +6,9 @@ st.header('🎈 R x Streamlit App')
 
 st.sidebar.markdown('''
 # About
-This app shows the use of R in a Streamlit App.
+This demo shows the use of R in a Streamlit App.
 
-Libraries use:
+Libraries used:
 - `ggplot2`
 - `cowplot`
 ''')
