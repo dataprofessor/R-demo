@@ -1,4 +1,4 @@
-# R x Streamlit App
+# R x Python Streamlit App
 
 This app shows the use of R in a Streamlit app. Particularly, codes shown herein are rendered on-the-fly as the app is loaded.
 
