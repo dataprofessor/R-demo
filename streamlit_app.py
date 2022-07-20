@@ -2,7 +2,7 @@ import streamlit as st
 import subprocess
 from PIL import Image
 
-st.header('🎈 R x Streamlit App')
+st.header('🎈 R x Python Streamlit App')
 
 st.sidebar.markdown('''
 # About
